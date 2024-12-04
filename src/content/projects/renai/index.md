@@ -7,6 +7,8 @@ tags:
   - NextJs
   - Typescript
   - TailwindCSS
+demoUrl: https://renai-mocha.vercel.app
+repoUrl: https://github.com/dd3vahmad/chatrenai
 ---
 
 The renAI Project is designed to transform how users interact with digital documents. This advanced tool enables users to upload PDF files and engage in natural language conversations to extract information, search specific sections, or gain insights quickly and effectively.
@@ -19,4 +21,4 @@ Engineered for scalability, renAI handles large documents with ease, making it s
 
 renAI bridges the gap between static documents and dynamic communication, redefining how data is accessed and utilized. It’s an innovative solution for enhancing productivity and making information retrieval faster, smarter, and more intuitive.
 
-And the best part is....It's free to use!. Click [here to check renAI](https://renai-mocha.vercel.app).
+And the best part is....It's free to use!.

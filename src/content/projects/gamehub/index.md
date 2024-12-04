@@ -9,6 +9,8 @@ tags:
   - ChakraUI
   - Web Development
   - Frontend Development
+demoUrl: https://gamehub-ruddy-beta.vercel.app
+repoUrl: https://github.com/dd3vahmad/gamehub
 ---
 
 The Gamehub Project is designed to revolutionize how users discover and explore new games. This web app offers an intuitive platform where users can browse, search, and explore a vast collection of games tailored to their preferences and interests.
@@ -21,4 +23,4 @@ With a focus on seamless user experience, Gamehub also allows users to create an
 
 Designed to scale for a growing database of games, Gamehub offers fast and responsive performance for users across devices. Whether you're a casual gamer or a dedicated enthusiast, this web app is the ultimate tool for discovering your next favorite game.
 
-And the best part is....It's free to use!. Click [here to check Gamehub](https://gamehub-ruddy-beta.vercel.app).
+And the best part is....It's free to use!.
