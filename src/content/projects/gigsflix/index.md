@@ -4,11 +4,11 @@ summary: "A social media engagement platform to gain likes, follows, and more."
 date: "June 3 2024"
 draft: false
 tags:
-  - React
+  - ReactJs
   - JavaScript
   - TailwindCSS
-  - Node.js
-  - Express
+  - NodeJs
+  - ExpressJs
   - MongoDB
 ---
 
