@@ -5,6 +5,7 @@ date: "Aug 13 2024"
 draft: false
 tags:
   - NextJs
+  - ReactJs
   - Typescript
   - TailwindCSS
 demoUrl: https://renai-mocha.vercel.app

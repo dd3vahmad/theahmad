@@ -4,11 +4,10 @@ summary: "A valley of game discovery adventure. Discover what makes you happy an
 date: "October 15 2024"
 draft: false
 tags:
-  - React
+  - ReactJs
   - Typescript
   - ChakraUI
-  - Web Development
-  - Frontend Development
+  - rawgAPI
 demoUrl: https://gamehub-ruddy-beta.vercel.app
 repoUrl: https://github.com/dd3vahmad/gamehub
 ---

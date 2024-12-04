@@ -4,11 +4,11 @@ summary: "The ultimate fish farm management and accounting software."
 date: "Sep 15 2024"
 draft: false
 tags:
-  - Astro
-  - Javascript
   - Typescript
-  - Tailwind
-  - SolidJs
+  - ReactJs
+  - NodeJs
+  - ExpressJs
+  - ChakraUI
 demoUrl: https://appacqua.vercel.app
 repoUrl: https://github.com/dd3vahmad/acqua
 ---
