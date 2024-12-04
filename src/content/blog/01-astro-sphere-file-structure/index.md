@@ -4,12 +4,13 @@ summary: "You'll find these directories and files in the project. What do they d
 date: "Mar 17 2024"
 draft: false
 tags:
-- Tutorial
-- Astro
-- Astro Sphere
+  - Tutorial
+  - Astro
+  - Astro Sphere
 ---
 
 A one line summary of what each file and directory is for:
+
 ```js
 /
 ├── public/ // Files publicly available to the browser
@@ -25,7 +26,7 @@ A one line summary of what each file and directory is for:
 │   └── favicon.svg //the icon that displays in the browser
 │   └── ui.svg // an svg sprite for all ui icons on the website
 │   └── social.svg // an svg sprite for all social media icons
-│   └── open-graph.jpg // the default image for open-graph
+│   └── open-graph.png // the default image for open-graph
 │   └── robots.txt // for web crawlers and bots to index the website
 ├── src/ // Everything that will be built for the website
 │   ├── components/ // All astro and SolidJs components

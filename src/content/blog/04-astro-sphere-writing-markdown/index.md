@@ -4,10 +4,10 @@ summary: "Basic Markdown syntax that can be used when writing Markdown content i
 date: "Mar 13 2024"
 draft: false
 tags:
-- Tutorial
-- Astro
-- Astro Sphere
-- Markdown
+  - Tutorial
+  - Astro
+  - Astro Sphere
+  - Markdown
 ---
 
 ### Headings
@@ -50,10 +50,10 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 Relative image in the /public folder
 
 ```markdown
-![blog placeholder](/open-graph.jpg)
+![blog placeholder](/open-graph.png)
 ```
 
-![blog placeholder](/open-graph.jpg)
+![blog placeholder](/open-graph.png)
 
 Relative Image in the same folder as the markdown
 
@@ -121,7 +121,7 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 
 ````markdown
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -137,7 +137,7 @@ we can use 3 backticks ``` in new line and write snippet and close with 3 backti
 Output
 
 ```html
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
