@@ -8,13 +8,13 @@ import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
 
 const posts = (await getCollection("blog"))
-  .filter(post => !post.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .filter((post: any) => !post.data.draft)
+  .sort((a: any, b: any) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
 
 const projects = (await getCollection("projects"))
-  .filter(project => !project.data.draft)
-  .sort((a, b) => b.data.date.getTime() - a.data.date.getTime())
+  .filter((project: any) => !project.data.draft)
+  .sort((a: any, b: any) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
 
 const stack = [
@@ -130,7 +130,7 @@ const stack = [
             </a>
           </div>
           <ul class="space-y-4">
-            {projects.map((project) => (
+            {projects.map((project: any) => (
               <li>
                 <ArrowCard entry={project} />
               </li>
@@ -153,7 +153,7 @@ const stack = [
             </a>
           </div>
           <ul class="space-y-4">
-            {posts.map((post) => (
+            {posts.map((post: any) => (
               <li>
                 <ArrowCard entry={post} />
               </li>
