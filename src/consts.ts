@@ -2,9 +2,9 @@ import type { Site, Page, Links, Socials } from "@types";
 
 // Global
 export const SITE: Site = {
-  TITLE: "The Ahmad Sphere",
+  TITLE: "The Ahmad",
   DESCRIPTION:
-    "Welcome to The Ahmad Sphere, a portfolio and blog for designers and developers.",
+    "Welcome to The Ahmad, a portfolio and blog for designers and developers.",
   AUTHOR: "Rabiu Ahmad",
 };
 
