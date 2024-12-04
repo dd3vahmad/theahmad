@@ -19,4 +19,4 @@ Engineered for scalability, RenAI handles large documents with ease, making it s
 
 RenAI bridges the gap between static documents and dynamic communication, redefining how data is accessed and utilized. It’s an innovative solution for enhancing productivity and making information retrieval faster, smarter, and more intuitive.
 
-And the best part is....It's free to use!. Check renAI [here](https://renai-mocha.vercel.app)
+And the best part is....It's free to use!. Click [here to check renAI](https://renai-mocha.vercel.app).
