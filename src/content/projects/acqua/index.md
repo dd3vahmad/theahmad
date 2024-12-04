@@ -9,6 +9,8 @@ tags:
   - NodeJs
   - ExpressJs
   - ChakraUI
+  - PostgreSQL
+  - SQL
 demoUrl: https://appacqua.vercel.app
 repoUrl: https://github.com/dd3vahmad/acqua
 ---

@@ -8,6 +8,10 @@ tags:
   - ReactJs
   - Typescript
   - TailwindCSS
+  - PineconeDB
+  - GeminiAI
+  - Langchain
+  - Vercel AI SDK
 demoUrl: https://renai-mocha.vercel.app
 repoUrl: https://github.com/dd3vahmad/chatrenai
 ---
