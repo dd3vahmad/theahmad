@@ -1,7 +1,7 @@
 ---
 import { SITE, SOCIALS } from "@consts";
 import Container from "@components/Container.astro";
-import Theahmad from "./theahmad.astro";
+import Theahmad from "./theahmad";
 ---
 
 <footer class="relative bg-white dark:bg-black">
@@ -57,7 +57,7 @@ import Theahmad from "./theahmad.astro";
               href="/"
               class="flex gap-1 font-semibold text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
             >
-              <Theahmad />
+              <Theahmad client:only="react" />
             </a>
           </div>
           <div class="flex gap-2 justify-center sm:justify-end items-center">

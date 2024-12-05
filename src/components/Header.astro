@@ -4,7 +4,7 @@ import { cn } from "@lib/utils";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
 import Container from "@components/Container.astro";
-import Theahmad from "./theahmad.astro";
+import Theahmad from "./theahmad";
 ---
 
 <header id="header" class="fixed top-0 w-full h-16 z-50">
@@ -17,7 +17,7 @@ import Theahmad from "./theahmad.astro";
           href="/"
           class="flex gap-1 text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
         >
-          <Theahmad />
+          <Theahmad client:only="react" />
         </a>
       </div>
 
