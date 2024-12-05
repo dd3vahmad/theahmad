@@ -2,10 +2,11 @@
 import black from "../../public/_dark.svg?raw";
 import white from "../../public/_light.svg?raw";
 
-// const isDarkMode = document.documentElement.classList.contains("dark");
-const isDarkMode = false;
+// const isLightMode = document.documentElement.classList.contains("dark");
+// const isLightMode = localStorage.getItem("theme") === "light";
+const isLightMode = true;
 ---
 
 <>
-  {isDarkMode ? <Fragment set:html={white} /> : <Fragment set:html={black} />}
+  {isLightMode ? <Fragment set:html={white} /> : <Fragment set:html={black} />}
 </>
