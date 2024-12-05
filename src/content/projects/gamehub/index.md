@@ -12,6 +12,8 @@ demoUrl: https://gamehub-ruddy-beta.vercel.app
 repoUrl: https://github.com/dd3vahmad/gamehub
 ---
 
+![gameIt](../../../../public/gameIT.png)
+
 The Gamehub Project is designed to revolutionize how users discover and explore new games. This web app offers an intuitive platform where users can browse, search, and explore a vast collection of games tailored to their preferences and interests.
 
 Powered by smart algorithms, Gamehub personalizes recommendations based on user behavior, genre preferences, and ratings. Whether you're looking for the latest releases or hidden gems, the app ensures you find games that match your tastes effortlessly.

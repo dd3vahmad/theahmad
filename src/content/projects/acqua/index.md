@@ -15,6 +15,8 @@ demoUrl: https://appacqua.vercel.app
 repoUrl: https://github.com/dd3vahmad/acqua
 ---
 
+![Acqua farms list page](../../../../public/acqua_farms.png)
+
 The Acqua Project is a comprehensive fish farm management and accounting app designed to streamline farm operations and financial tracking. It provides an intuitive platform that helps fish farmers manage daily tasks, monitor operations, and handle accounting, all in one place.
 
 Acqua simplifies the management of fish farm activities, from monitoring water quality and feeding schedules to tracking fish growth and health. The app also integrates financial tools that allow farmers to easily manage expenses, revenues, and profit margins, providing a clear picture of the farm's financial health.
