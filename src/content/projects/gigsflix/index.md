@@ -10,9 +10,10 @@ tags:
   - NodeJs
   - ExpressJs
   - MongoDB
+banner: /gigsflix.png
 ---
 
-![gameIt](../../../../public/gigsflix.png)
+![gameIt](/gigsflix.png)
 
 Gigsflix is a social media engagement platform designed to help users boost their online presence. With Gigsflix, users can gain likes, follows, comments, and other forms of engagement across various social media platforms. It’s an easy-to-use tool for individuals and businesses looking to grow their audience and enhance their digital influence.
 
