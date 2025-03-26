@@ -1,6 +1,6 @@
 ---
 title: "Hamdallah Rabiu"
-summary: "A well design simple but yet detailed portfolio website for one of my clients. Hamdallah A. Rabiu."
+summary: "A well design simple but yet detailed portfolio website for one of my clients - Hamdallah A. Rabiu."
 date: "February 3 2025"
 draft: false
 tags:
@@ -9,6 +9,8 @@ tags:
   - TailwindCSS
   - Shadcn-UI
 banner: /hamdallah-portfolio.png
+demoUrl: https://hamdallah-rabiu.onrender.com
+repoUrl: https://www.github.com/dd3vahmad/hamdallah-rabiu
 ---
 
 ![Hamdallah](/hamdallah-portfolio.png)
