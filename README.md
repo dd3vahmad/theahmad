@@ -24,7 +24,7 @@ It is primarily Astro, Tailwind and Typescript, with a very small amount of Soli
 - ✅ Markdown support
 - ✅ MDX Support (components in your markdown)
 - ✅ Searchable content (posts and projects)
-- ✅ Code Blocks - copy to clipboard
+- ✅ Code Blocks - Copy to clipboard
 
 ## 💯 Lighthouse score
 
