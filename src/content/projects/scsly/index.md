@@ -11,7 +11,7 @@ tags:
   - Typescript
   - Express
   - MongoDb
-demoUrl: https://scsly.onrender.com
+demoUrl: https://scsly.vercel.app
 repoUrl: https://github.com/dd3vahmad/scsly
 banner: /scsly.png
 ---

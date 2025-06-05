@@ -9,7 +9,7 @@ tags:
   - TailwindCSS
   - Shadcn-UI
 banner: /hamdallah-portfolio.png
-demoUrl: https://hamdallah-rabiu.onrender.com
+demoUrl: https://hamdallah-rabiu.vercel.app
 repoUrl: https://www.github.com/dd3vahmad/hamdallah-rabiu
 ---
 
