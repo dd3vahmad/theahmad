@@ -7,7 +7,7 @@ tags:
   - NextJs
   - Typescript
   - TailwindCSS
-  - Shadcn-UI
+  - shadcn UI
 banner: /hamdallah-portfolio.png
 demoUrl: https://hamdallah-rabiu.vercel.app
 repoUrl: https://www.github.com/dd3vahmad/hamdallah-rabiu

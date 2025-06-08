@@ -9,7 +9,7 @@ tags:
   - shadcn UI
   - NodeJs
   - Typescript
-  - Express
+  - ExpressJs
   - MongoDb
 demoUrl: https://scsly.vercel.app
 repoUrl: https://github.com/dd3vahmad/scsly

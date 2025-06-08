@@ -1,13 +1,13 @@
 ---
 title: "Radiant Smile Dental Services"
 summary: "A modern, patient-focused dental care clinic offering top-tier oral health services in a welcoming environment. Designed for seamless digital experiences, the website enhances patient engagement and trust."
-date: "March 30 2025"
+date: "June 08 2025"
 draft: false
 tags:
   - NextJs
   - Typescript
   - shadcn UI
-  - MongoDb
+  - MongoDB
 demoUrl: https://radiantsmileclinic.vercel.app
 repoUrl: https://github.com/dd3vahmad/radiantsmile
 banner: /radiantsmile.png
