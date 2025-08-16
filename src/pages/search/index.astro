@@ -1,29 +1,31 @@
 ---
-import { type CollectionEntry, getCollection } from "astro:content"
-import PageLayout from "@layouts/PageLayout.astro"
-import TopLayout from "@layouts/TopLayout.astro"
-import BottomLayout from "@layouts/BottomLayout.astro"
-import Search from "@components/Search"
-import { SEARCH } from "@consts"
+import { type CollectionEntry, getCollection } from "astro:content";
+import PageLayout from "@layouts/PageLayout.astro";
+import TopLayout from "@layouts/TopLayout.astro";
+import BottomLayout from "@layouts/BottomLayout.astro";
+import Search from "@components/Search";
+import { SEARCH } from "@consts";
+import DownloadCV from "@components/DownloadCV";
 
-const posts = (await getCollection("blog"))
-  .filter(post => !post.data.draft)
+const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
 
-const projects = (await getCollection("projects"))
-  .filter(post => !post.data.draft)
+const projects = (await getCollection("projects")).filter(
+  (post) => !post.data.draft
+);
 
-const data = [...posts, ...projects] as CollectionEntry<"blog">[]
+const data = [...posts, ...projects] as CollectionEntry<"blog">[];
 ---
 
 <PageLayout title={SEARCH.TITLE} description={SEARCH.DESCRIPTION}>
   <TopLayout>
-    <div class="animate page-heading">
+    <div class="animate page-heading flex w-full justify-between items-center">
       {SEARCH.TITLE}
+      <DownloadCV client:load />
     </div>
   </TopLayout>
   <BottomLayout>
     <div class="animate">
-      <Search client:load data={data}/>
+      <Search client:load data={data} />
     </div>
   </BottomLayout>
 </PageLayout>

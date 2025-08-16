@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
 import ArrowCard from "@components/ArrowCard"
+import DownloadCV from "@components/DownloadCV"
 import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
@@ -76,8 +77,8 @@ const stack = [
         </div>
       </div>
     </div>
-    <div class="animate absolute h-full w-full flex items-center justify-center">
-      <div class='relative w-full h-full flex items-center justify-center'>
+    <div class="animate absolute w-full h-full flex flex-col items-center justify-center">
+      <div class='relative w-full flex-1 flex items-center justify-center'>
         <div class='p-5 text-center'>
           <p class='animated text-lg md:text-xl lg:text-2xl font-semibold opacity-75'>
             Hi, I am...
@@ -98,6 +99,11 @@ const stack = [
           </div>
         </div>
       </div>
+
+      <!-- Download CV -->
+       <div class="mb-6">
+         <DownloadCV client:load />
+       </div>
     </div>
   </section>
 
@@ -215,6 +221,13 @@ const stack = [
                 </a>
               </div>
             ))}
+        </div>
+
+        <div class="mt-6">
+          <p>And you can also.</p>
+          <div class="mt-2">
+            <DownloadCV client:load />
+          </div>
         </div>
       </section>
     </div>

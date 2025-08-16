@@ -1,7 +1,7 @@
 ---
 company: "Autocredit Payment"
 role: "Full-stack Developer"
-dateStart: "10/16/2023"
+dateStart: "09/16/2023"
 dateEnd: "08/15/2025"
 ---
 
