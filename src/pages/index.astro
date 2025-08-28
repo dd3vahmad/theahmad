@@ -3,7 +3,6 @@ import { getCollection } from "astro:content"
 import PageLayout from "@layouts/PageLayout.astro"
 import ArrowCard from "@components/ArrowCard"
 import DownloadCV from "@components/DownloadCV"
-import StackCard from "@components/StackCard.astro"
 import { SITE, SOCIALS } from "@consts"
 import TwinklingStars from "@components/TwinklingStars.astro"
 import MeteorShower from "@components/MeteorShower.astro"
@@ -17,29 +16,6 @@ const projects = (await getCollection("projects"))
   .filter((project: any) => !project.data.draft)
   .sort((a: any, b: any) => b.data.date.getTime() - a.data.date.getTime())
   .slice(0,3)
-
-const stack = [
-  { 
-    text: "Astro", 
-    icon: "astro", 
-    href: "https://astro.build" 
-  },
-  { 
-    text: "Javascript", 
-    icon: "javascript", 
-    href: "https://www.javascript.com" 
-  },
-  { 
-    text: "Typescript", 
-    icon: "typescript", 
-    href: "https://www.typescriptlang.org" 
-  },
-  { 
-    text: "Tailwind", 
-    icon: "tailwind", 
-    href: "https://tailwindcss.com" 
-  },
-]
 ---
 
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
@@ -80,7 +56,7 @@ const stack = [
     <div class="animate absolute w-full h-full flex flex-col items-center justify-center">
       <div class='relative w-full flex-1 flex items-center justify-center'>
         <div class='p-5 text-center'>
-          <p class='animated text-lg md:text-xl lg:text-2xl opacity-75'>
+          <p class='animated text-sm md:text-base lg:text-lg opacity-75'>
             Hi, my name is...
           </p>
           <p class='animated text-2xl md:text-3xl lg:text-4xl font-bold uppercase text-black dark:text-white'>
@@ -164,33 +140,6 @@ const stack = [
               </li>
             ))}
           </ul>
-        </div>
-      </section>
-
-      <!-- Tech Stack Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <p class="font-semibold text-black dark:text-white">
-            Website built with
-          </p>
-          <div class="flex flex-wrap items-center gap-2 mt-5">
-            {stack.map(item => (
-              <StackCard 
-                text={item.text}
-                icon={item.icon}
-                href={item.href}
-              />
-            ))}
-          </div>
-          <div>
-            And a bit of
-            <a href="https://www.solidjs.com/" target="_blank" class="w-fit group underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                SolidJS
-              </span>
-            </a>
-            for reactivity and statefulness.
-          </div>
         </div>
       </section>
 
