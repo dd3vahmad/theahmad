@@ -3,8 +3,12 @@ export type Page = {
   DESCRIPTION: string
 }
 
+export interface Blog extends Page {
+  SHORT_TITLE: string,
+}
+
 export interface Site extends Page {
-  AUTHOR: string
+  AUTHOR: string,
 }
 
 export type Links = {

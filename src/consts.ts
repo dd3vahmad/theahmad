@@ -1,11 +1,11 @@
-import type { Site, Page, Links, Socials } from "@types";
+import type { Site, Page, Links, Socials, Blog } from "@types";
 
 // Global
 export const SITE: Site = {
-  TITLE: "The Ahmad",
+  TITLE: "Ahmad Rabiu",
   DESCRIPTION:
-    "Welcome to Rabiu Ahmad's, portfolio, this resource contains details you need to know about Ahmad as a Software Developer and Engineer.",
-  AUTHOR: "Rabiu Ahmad",
+    "Welcome to my portfolio, this resource contains details you need to know about me as a Developer and Engineer.",
+  AUTHOR: "Ahmad Rabiu",
 };
 
 // Work Page
@@ -15,9 +15,10 @@ export const WORK: Page = {
 };
 
 // Blog Page
-export const BLOG: Page = {
-  TITLE: "Blog",
-  DESCRIPTION: "Writing on topics I am passionate about.",
+export const BLOG: Blog = {
+  TITLE: "Ahmad's Notes",
+  SHORT_TITLE: "Notes",
+  DESCRIPTION: "Writing on topics that interests me.",
 };
 
 // Projects Page

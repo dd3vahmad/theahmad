@@ -1,12 +1,12 @@
 ---
-title: "Astro Sphere: Writing Markdown"
-summary: "Basic Markdown syntax that can be used when writing Markdown content in Astro Sphere."
+title: "Notes: Writing Markdown"
+summary: "Basic Markdown syntax that can be used when writing Markdown content in Ahmad's Notes."
 date: "Mar 13 2024"
-draft: false
+draft: true
 tags:
   - Tutorial
   - Astro
-  - Astro Sphere
+  - Ahmad's Notes
   - Markdown
 ---
 

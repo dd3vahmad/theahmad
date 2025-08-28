@@ -16,7 +16,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))].sort(
 );
 ---
 
-<PageLayout title={BLOG.TITLE} description={BLOG.DESCRIPTION}>
+<PageLayout title={BLOG.SHORT_TITLE} description={BLOG.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading flex w-full justify-between items-center">
       {BLOG.TITLE}

@@ -9,7 +9,7 @@ tags:
   - Typescript
   - TailwindCSS
   - PineconeDB
-  - GeminiAI
+  - Gemini
   - Langchain
   - Vercel AI SDK
 demoUrl: https://renai-mocha.vercel.app

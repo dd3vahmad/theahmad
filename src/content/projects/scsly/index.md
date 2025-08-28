@@ -10,7 +10,7 @@ tags:
   - NodeJs
   - Typescript
   - ExpressJs
-  - MongoDb
+  - MongoDB
 demoUrl: https://scsly.vercel.app
 repoUrl: https://github.com/dd3vahmad/scsly
 banner: /scsly.png
