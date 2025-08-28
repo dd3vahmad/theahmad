@@ -8,6 +8,14 @@ export const SITE: Site = {
   AUTHOR: "Ahmad Rabiu",
 };
 
+export const NOTFOUND = {
+  TITLE: "Dead End",
+  DESCRIPTION: "Don't visit! - It's a dangerous place to be.",
+  QUESTION: "How did you get here?",
+  INFO: ":/ This page doesn't seem to exist",
+  INSTRUCTION: "Go home"
+}
+
 // Work Page
 export const WORK: Page = {
   TITLE: "Work",

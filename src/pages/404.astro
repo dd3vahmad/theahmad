@@ -1,0 +1,24 @@
+---
+import "@styles/global.css"
+import TopLayout from "@layouts/TopLayout.astro"
+import BaseHead from "@components/BaseHead.astro"
+import { NOTFOUND } from "@consts"
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={NOTFOUND.TITLE} description={NOTFOUND.DESCRIPTION} />
+  </head>
+  <body>
+    <main class="justify-center items-center">
+      <div class="w-fit rounded flex flex-col justify-center items-center">
+        <p class="text-sm text-red-500">{NOTFOUND.INFO}</p>
+        <h1 class="font-bold text-xl my-5">{NOTFOUND.QUESTION}</h1>
+        <a href="/" class="px-3 py-1 rounded border border-black/25 dark:border-white/25 hover:bg-black/5 dark:hover:bg-white/15 blend">
+          {NOTFOUND.INSTRUCTION}
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
