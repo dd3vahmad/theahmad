@@ -13,8 +13,8 @@ export const NOTFOUND = {
   DESCRIPTION: "Don't visit! - It's a dangerous place to be.",
   QUESTION: "How did you get here?",
   INFO: ":/ This page doesn't seem to exist",
-  INSTRUCTION: "Go home"
-}
+  INSTRUCTION: "Go home",
+};
 
 // Work Page
 export const WORK: Page = {
@@ -72,19 +72,19 @@ export const SOCIALS: Socials = [
   {
     NAME: "Github",
     ICON: "github",
-    TEXT: "dd3vahmad",
-    HREF: "https://github.com/dd3vahmad",
+    TEXT: "0xlxst",
+    HREF: "https://github.com/0xlxst",
   },
   {
     NAME: "LinkedIn",
     ICON: "linkedin",
     TEXT: "Ahmad Rabiu",
-    HREF: "https://www.linkedin.com/in/rabiuahmad/",
+    HREF: "https://www.linkedin.com/in/rabiuahmad",
   },
   {
     NAME: "Twitter",
     ICON: "twitter-x",
-    TEXT: "dd3vahmad",
-    HREF: "https://x.com/dd3vahmad",
+    TEXT: "0xlxst",
+    HREF: "https://x.com/Oxlxst",
   },
 ];

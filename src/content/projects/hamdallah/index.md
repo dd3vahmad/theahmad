@@ -10,7 +10,7 @@ tags:
   - shadcn UI
 banner: /hamdallah-portfolio.png
 demoUrl: https://hamdallah-rabiu.vercel.app
-repoUrl: https://www.github.com/dd3vahmad/hamdallah-rabiu
+repoUrl: https://www.github.com/0xlxst/hamdallah-rabiu
 ---
 
 ![Hamdallah's](/hamdallah-portfolio.png)

@@ -141,6 +141,6 @@ Read More about the technologies used: [AES](https://en.wikipedia.org/wiki/Advan
 
 ---
 
-**Want to contribute?** Share your thoughts on [X](https://x.com/dd3vahmad/status/1931758933728772522)/[LinkedIn](https://www.linkedin.com/posts/rabiuahmad_rethinking-authentication-why-your-password-activity-7337527848741601280-409F?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD_UyZUB82t836LbTegtGecElijw9PEFWp0) or implement this idea in a prototype. Let’s rethink authentication together.
+**Want to contribute?** Share your thoughts on [X](https://x.com/Oxlxst/status/1931758933728772522)/[LinkedIn](https://www.linkedin.com/posts/rabiuahmad_rethinking-authentication-why-your-password-activity-7337527848741601280-409F?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAD_UyZUB82t836LbTegtGecElijw9PEFWp0) or implement this idea in a prototype. Let’s rethink authentication together.
 
 ---

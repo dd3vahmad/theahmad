@@ -12,7 +12,7 @@ tags:
   - ExpressJs
   - MongoDB
 demoUrl: https://scsly.vercel.app
-repoUrl: https://github.com/dd3vahmad/scsly
+repoUrl: https://github.com/0xlxst/scsly
 banner: /scsly.png
 ---
 

@@ -9,7 +9,7 @@ tags:
   - shadcn UI
   - MongoDB
 demoUrl: https://radiantsmileclinic.vercel.app
-repoUrl: https://github.com/dd3vahmad/radiantsmile
+repoUrl: https://github.com/0xlxst/radiantsmile
 banner: /radiantsmile.png
 ---
 
