@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        "sans": ["MonaspaceKrypton", ...defaultTheme.fontFamily.sans],
+        "sans": ["GeistMono", ...defaultTheme.fontFamily.sans],
       },
       typography: {
         DEFAULT: {
@@ -22,39 +22,12 @@ export default {
         "225": "225deg",
         "315": "315deg",
       },
-      animation: {
-        twinkle: "twinkle 2s ease-in-out forwards",
-        meteor: "meteor 3s ease-in-out forwards",
-      },
-      keyframes: {
-        twinkle: {
-          "0%": {
-            opacity: 0,
-            transform: "rotate(0deg)"
-          },
-          "50%": {
-            opacity: 1,
-            transform: "rotate(180deg)"
-          },
-          "100%": {
-            opacity: 0,
-            transform: "rotate(360deg)"
-          },
-        },
-        meteor: {
-          "0%": {
-            opacity: 0,
-            transform: "translateY(200%)"
-          },
-          "50%": {
-            opacity: 1
-          },
-          "100%": {
-            opacity: 0,
-            transform: "translateY(0)"
-          },
-        },
-      },
+      colors: {
+        text: "#f4f4f4",
+        background: "#1c1d26",
+        tiny: "#ff1974",
+        big: "#6d7cff"
+      }
     },
   },
   plugins: [require("@tailwindcss/typography")],

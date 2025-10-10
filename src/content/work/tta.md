@@ -1,8 +1,10 @@
 ---
+file: "tta.md"
 company: "Tech Talent Academy"
 role: "Software Developer"
 dateStart: "03/27/2023"
 dateEnd: "08/21/2023"
+brief: "Worked on the academy's registration platform and Learning Management System (LMS)."
 ---
 
 Worked on the academy's registration platform and Learning Management System (LMS).

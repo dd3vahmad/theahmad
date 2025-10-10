@@ -1,4 +1,6 @@
 ---
+brief: "I was responsible for building scalable and beautiful full-stack web applications."
+file: "autocredit.md"
 company: "Autocredit Payment"
 role: "Full-stack Developer"
 dateStart: "09/16/2023"
