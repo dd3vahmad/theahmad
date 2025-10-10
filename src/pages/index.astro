@@ -83,7 +83,7 @@ const projects = (await getCollection("projects"))
 
       <div class="grid md:grid-cols-2 gap-5">
         {projects.map((project: any) => (
-            <ArrowCard entry={project} pill />
+          <ArrowCard entry={project} pill />
         ))}
       </div>
     </div>

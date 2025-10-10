@@ -43,14 +43,14 @@ export function formatWorkDate(input: Date | string) {
     <ul>
       {work.map((entry) => (
           <li class="border-b border-big/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
-            <div class="text-sm uppercase mb-4">
+            <div class="text-sm text-grey uppercase mb-4">
               {formatWorkDate(entry.data.dateStart)} -{" "}
               {formatWorkDate(entry.data.dateEnd)}
             </div>
-            <div class="text-black dark:text-white font-semibold">
+            <div class="text-big font-semibold">
               {entry.data.company}
             </div>
-            <div class="text-sm text-big font-semibold mb-2 mt-1">{entry.data.role}</div>
+            <div class="text-sm text-tiny font-semibold mb-2 mt-1">{entry.data.role}</div>
             <article class="prose text-text">
               <entry.Content />
             </article>

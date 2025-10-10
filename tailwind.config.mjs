@@ -23,10 +23,17 @@ export default {
         "315": "315deg",
       },
       colors: {
-        text: "#f4f4f4",
-        background: "#1c1d26",
-        tiny: "#ff1974",
-        big: "#6d7cff"
+        text: "#a9b1d6",
+        // text: "#f4f4f4",a9b1d6
+        // background: "#1c1d26",
+        background: "#0f1019",
+        // tiny: "#ff1974",
+        tiny: "#bb9af7",
+        // big: "#6d7cff",
+        big: "#7aa2f7",
+        bluey: "#89deff",
+        grey: "#565f89",
+        greeny: "#9ece6a"
       }
     },
   },
