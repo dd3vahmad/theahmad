@@ -3,6 +3,8 @@ import { defineCollection, z } from "astro:content";
 const work = defineCollection({
   type: "content",
   schema: z.object({
+    brief: z.string(),
+    file: z.string(),
     company: z.string(),
     role: z.string(),
     dateStart: z.coerce.date(),

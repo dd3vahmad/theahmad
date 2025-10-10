@@ -1,0 +1,104 @@
+/* markdown-styles.module.css */
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+/* Paragraphs, lists, and blockquotes */
+.markdown p,
+.markdown ul,
+.markdown ol,
+.markdown blockquote {
+  @apply my-2;
+}
+
+/* Headings */
+.markdown h1 {
+  @apply text-3xl mt-14 mb-6 font-bold text-big;
+}
+
+.markdown h2 {
+  @apply text-2xl mt-12 mb-4 leading-snug font-semibold text-big;
+}
+
+.markdown h3 {
+  @apply text-xl mt-8 mb-4 leading-snug text-tiny font-semibold;
+}
+
+.markdown h4 {
+  @apply text-lg mt-6 mb-3 font-semibold;
+}
+
+.markdown h5,
+.markdown h6 {
+  @apply text-base mt-4 mb-2 font-medium;
+}
+
+/* Lists */
+.markdown ul {
+  @apply ml-4 list-disc;
+}
+
+.markdown ol {
+  @apply ml-8 list-decimal;
+}
+
+.markdown li {
+  @apply my-2;
+}
+
+/* Emphasis */
+.markdown em,
+.markdown i {
+  @apply italic text-tiny/70;
+}
+
+.markdown b,
+.markdown strong {
+  @apply text-bluey font-bold;
+}
+
+/* Blockquotes */
+.markdown blockquote {
+  @apply bg-background italic px-4 py-2 border-l-4 border-tiny text-tiny;
+}
+
+/* Links */
+.markdown a {
+  @apply underline text-greeny hover:text-greeny/75;
+}
+
+/* Horizontal rules */
+.markdown hr {
+  @apply my-10 border-t border-big/20;
+}
+
+/* Code */
+.markdown code {
+  @apply font-mono text-white px-1.5 py-0.5 rounded text-sm;
+}
+
+.markdown pre {
+  @apply my-6 bg-grey text-white p-4 rounded overflow-x-auto;
+}
+
+.markdown pre code {
+  @apply font-mono text-sm leading-relaxed;
+}
+
+/* Images */
+.markdown img {
+  @apply my-6 rounded shadow-md max-w-full h-auto;
+}
+
+/* Tables */
+.markdown table {
+  @apply w-full text-left border-collapse my-6;
+}
+
+.markdown th {
+  @apply font-semibold border-b border-big/50 py-2 px-3;
+}
+
+.markdown td {
+  @apply py-2 px-3 border-b border-big/20;
+}

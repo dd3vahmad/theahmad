@@ -20,7 +20,7 @@ const work = await Promise.all(
   })
 );
 
-function formatWorkDate(input: Date | string) {
+export function formatWorkDate(input: Date | string) {
   if (typeof input === "string") return input;
 
   const month = input.toLocaleDateString("en-US", {
@@ -34,25 +34,24 @@ function formatWorkDate(input: Date | string) {
 
 <PageLayout title={WORK.TITLE} description={WORK.DESCRIPTION}>
   <TopLayout>
-    <div class="animate page-heading flex w-full justify-between items-center">
-      {WORK.TITLE}
+    <div class="page-heading flex w-full justify-between items-center">
+      <h1 class="text-xl font-semibold">{WORK.TITLE}</h1>
       <DownloadCV client:load />
     </div>
   </TopLayout>
   <BottomLayout>
     <ul>
-      {
-        work.map((entry) => (
-          <li class="animate border-b border-black/10 dark:border-white/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
-            <div class="text-sm uppercase mb-4">
+      {work.map((entry) => (
+          <li class="border-b border-big/25 mt-4 py-8 first-of-type:mt-0 first-of-type:pt-0 last-of-type:border-none">
+            <div class="text-sm text-grey uppercase mb-4">
               {formatWorkDate(entry.data.dateStart)} -{" "}
               {formatWorkDate(entry.data.dateEnd)}
             </div>
-            <div class="text-black dark:text-white font-semibold">
+            <div class="text-big font-semibold">
               {entry.data.company}
             </div>
-            <div class="text-sm font-semibold">{entry.data.role}</div>
-            <article class="prose dark:prose-invert">
+            <div class="text-sm text-tiny font-semibold mb-2 mt-1">{entry.data.role}</div>
+            <article class="prose text-text">
               <entry.Content />
             </article>
           </li>

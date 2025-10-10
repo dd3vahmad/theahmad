@@ -19,7 +19,7 @@ const tags = [...new Set(posts.flatMap((post) => post.data.tags))].sort(
 <PageLayout title={BLOG.SHORT_TITLE} description={BLOG.DESCRIPTION}>
   <TopLayout>
     <div class="animate page-heading flex w-full justify-between items-center">
-      {BLOG.TITLE}
+      <h1 class="text-xl font-semibold">{BLOG.TITLE}</h1>
       <DownloadCV client:load />
     </div>
   </TopLayout>

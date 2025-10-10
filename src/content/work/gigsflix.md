@@ -1,4 +1,6 @@
 ---
+brief: "Worked on designing, developing, deploying and maintaining the Gigsflix full-stack web app."
+file: "gigsflix.md"
 company: "Gigsflix Technologies"
 role: "Software Engineer"
 dateStart: "08/23/2023"

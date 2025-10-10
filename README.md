@@ -1,50 +1,8 @@
-![theahmad's banner](thebanner.png)
-
 This portfolio site is a static, minimalist, lightweight, lightning fast portfolio and blog theme, it's a futher development of the Astro Sphere by markhorn-dev and few other.
 
 It is primarily Astro, Tailwind and Typescript, with a very small amount of SolidJS for stateful components. But added some reactjs to add my new features.
 
-## 🚀 Deploy your own
-
-You can deploy a starter project from the original repo for yourself.
-
-[![Deploy with Vercel](_deploy_vercel.svg)](https://vercel.com/new/clone?repository-url=https://github.com/markhorn-dev/astro-sphere) [![Deploy with Netlify](_deploy_netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/markhorn-dev/astro-sphere)
-
-## 📋 Features
-
-- ✅ 100/100 Lighthouse performance
-- ✅ Responsive
-- ✅ Accessible
-- ✅ SEO-friendly
-- ✅ Typesafe
-- ✅ Minimal style
-- ✅ Light/Dark Theme
-- ✅ Animated UI
-- ✅ Tailwind styling
-- ✅ Auto generated sitemap
-- ✅ Auto generated RSS Feed
-- ✅ Markdown support
-- ✅ MDX Support (components in your markdown)
-- ✅ Searchable content (posts and projects)
-- ✅ Code Blocks - Copy to clipboard
-
-## 💯 Lighthouse score
-
-![Astro Sphere Lighthouse Score](_lighthouse.png)
-
-## 🕊️ Lightweight
-
-All pages under 100kb (including fonts)
-
-## ⚡︎ Fast
-
-Rendered in ~40ms on localhost
-
-## 📄 Configuration
-
-The blog posts on the demo serve as the documentation and configuration.
-
-## 💻 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
@@ -73,4 +31,4 @@ A few features I plan to implement
 
 ## ✨ Acknowledgement
 
-Theme inspired by [Paco Coursey](https://paco.me/), [Lee Robinson](https://leerob.io/) and [Hayden Bleasel](https://www.haydenbleasel.com/)
+Theme inspired by [Alexa Fazio](https://alexafazio.dev/)
