@@ -23,8 +23,8 @@ export default {
         "315": "315deg",
       },
       colors: {
-        text: "#a9b1d6",
         // text: "#f4f4f4",a9b1d6
+        text: "#a9b1d6",
         // background: "#1c1d26",
         background: "#0f1019",
         // tiny: "#ff1974",
