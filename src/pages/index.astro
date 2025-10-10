@@ -19,7 +19,7 @@ const works = (await getCollection("work"))
 const projects = (await getCollection("projects"))
   .filter((project: any) => !project.data.draft)
   .sort((a: any, b: any) => b.data.date.getTime() - a.data.date.getTime())
-  .slice(0,3)
+  .slice(0,4)
 ---
 
 <PageLayout title="Home" description={SITE.DESCRIPTION}>
@@ -30,12 +30,13 @@ const projects = (await getCollection("projects"))
     </div>
 
     <!-- About Section -->
-    <section class="w-full">
-      <h2 class="text-2xl mb-2 mt-12">About</h2>
+    <section class="mt-12">
+      <h2 class="text-xl mb-2 mt-12">About</h2>
+
       <div class="bspace-y-1 p-5 border border-big/20">
         <p class="font-semibold text-big mb-4"><span class="text-tiny">$</span> cat about.md</p>
         <div class="ms-5 space-y-1">
-          <p>🐝 I am an undergraduate at the 
+          <p>🐝 I am an undergraduate at 
             <a href="https://futa.edu.ng" target="_blank">
               <b class="cursor-pointer hover:opacity-80 underline transition-opacity duration-300 text-tiny">FUTA</b>
             </a> studying Software Engineering</p>
@@ -46,8 +47,13 @@ const projects = (await getCollection("projects"))
     </section>
     
     <!-- Work Section -->
-    <section class="w-full">
-      <h2 class="text-2xl mb-2 mt-12">Experience</h2>
+    <section class="space-y-2 mt-12">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl">Experience</h2>
+        <a href="/work" class="text-big text-sm hover:underline">
+          View all
+        </a>
+      </div>
 
       <div class="space-y-5 w-full">
         {works.map((work) => (
@@ -67,33 +73,30 @@ const projects = (await getCollection("projects"))
     </section>
 
     <!-- Project Preview Section -->
-    <div class="space-y-4 mt-12">
+    <div class="space-y-2 mt-12">
       <div class="flex items-center justify-between">
-        <h2 class="text-2xl mb-2">Projects</h2>
-        <a href="/projects" class="text-big">
+        <h2 class="text-xl">Projects</h2>
+        <a href="/projects" class="text-big text-sm hover:underline">
           View all
         </a>
       </div>
 
       <div class="grid md:grid-cols-2 gap-5">
         {projects.map((project: any) => (
-            <ArrowCard entry={project} />
+            <ArrowCard entry={project} pill />
         ))}
       </div>
     </div>
 
     <!-- Blog Preview Section -->
-    <div class="space-y-4">
-      <div class="flex justify-between">
-        <p class="font-semibold text-black dark:text-white">
-          Posts
-        </p>
-        <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-          <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-            All posts
-          </span>
+    <div class="space-y-2 mt-12">
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl">Posts</h2>
+        <a href="/blog" class="text-big text-sm hover:underline">
+          View all
         </a>
       </div>
+
       <ul class="space-y-4">
         {posts.map((post: any) => (
           <li>

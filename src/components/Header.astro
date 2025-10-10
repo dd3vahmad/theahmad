@@ -17,13 +17,13 @@ import Drawer from "./Drawer.astro";
         Ahmad Rabiu
       </a>
 
-      <nav class="hidden md:flex items-center justify-center text-sm gap-1">
+      <nav class="hidden md:flex items-center justify-center text-sm gap-8">
         {
           LINKS.map((LINK) => (
             <a
               href={LINK.HREF}
               class={cn(
-                "h-8 rounded-full px-3 text-current",
+                "h-8",
                 "flex items-center justify-center",
                 pathname === LINK.HREF || "/" + subpath?.[0] === LINK.HREF
                   ? "text-big"
