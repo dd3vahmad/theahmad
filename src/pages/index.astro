@@ -65,53 +65,42 @@ const projects = (await getCollection("projects"))
         ))}
       </div>
     </section>
-  </Container>
 
-  <div class="relative">
-    <div class="mx-auto max-w-screen-sm p-5 space-y-24 pb-16">
-      <!-- Project Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent projects
-            </p>
-            <a href="/projects" class="text-big">
-              View all
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {projects.map((project: any) => (
-              <li>
-                <ArrowCard entry={project} />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+    <!-- Project Preview Section -->
+    <div class="space-y-4 mt-12">
+      <div class="flex items-center justify-between">
+        <h2 class="text-2xl mb-2">Projects</h2>
+        <a href="/projects" class="text-big">
+          View all
+        </a>
+      </div>
 
-      <!-- Blog Preview Section -->
-      <section class="animate">
-        <div class="space-y-4">
-          <div class="flex justify-between">
-            <p class="font-semibold text-black dark:text-white">
-              Recent posts
-            </p>
-            <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
-              <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
-                All posts
-              </span>
-            </a>
-          </div>
-          <ul class="space-y-4">
-            {posts.map((post: any) => (
-              <li>
-                <ArrowCard entry={post} />
-              </li>
-            ))}
-          </ul>
-        </div>
-      </section>
+      <div class="grid md:grid-cols-2 gap-5">
+        {projects.map((project: any) => (
+            <ArrowCard entry={project} />
+        ))}
+      </div>
     </div>
-  </div>
+
+    <!-- Blog Preview Section -->
+    <div class="space-y-4">
+      <div class="flex justify-between">
+        <p class="font-semibold text-black dark:text-white">
+          Posts
+        </p>
+        <a href="/blog" class="w-fit col-span-3 group flex gap-1 items-center underline decoration-[.5px] decoration-black/25 dark:decoration-white/50 hover:decoration-black dark:hover:decoration-white text-black dark:text-white underline-offset-2 blend">
+          <span class="text-black/75 dark:text-white/75 group-hover:text-black group-hover:dark:text-white blend">
+            All posts
+          </span>
+        </a>
+      </div>
+      <ul class="space-y-4">
+        {posts.map((post: any) => (
+          <li>
+            <ArrowCard entry={post} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  </Container>
 </PageLayout>
