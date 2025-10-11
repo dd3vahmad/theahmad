@@ -2,7 +2,7 @@
 title: "Rethinking Authentication: Why Your Password Should Be Your Key, Not Your Risk"
 summary: "A fresh take on authentication design that eliminates password storage and empowers users by turning their password into the actual key to their account."
 date: "Jun 08 2025"
-draft: false
+draft: true
 tags:
   - Authentication
   - Security

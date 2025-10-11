@@ -73,7 +73,7 @@ export const SOCIALS: Socials = [
     NAME: "Github",
     ICON: "github",
     TEXT: "0xlxst",
-    HREF: "https://github.com/0xlxst",
+    HREF: "https://github.com/dd3vahmad",
   },
   {
     NAME: "LinkedIn",
