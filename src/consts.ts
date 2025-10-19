@@ -72,7 +72,7 @@ export const SOCIALS: Socials = [
   {
     NAME: "Github",
     ICON: "github",
-    TEXT: "0xlxst",
+    TEXT: "dd3vahmad",
     HREF: "https://github.com/dd3vahmad",
   },
   {
@@ -84,7 +84,7 @@ export const SOCIALS: Socials = [
   {
     NAME: "Twitter",
     ICON: "twitter-x",
-    TEXT: "0xlxst",
-    HREF: "https://x.com/Oxlxst",
+    TEXT: "Ahmad",
+    HREF: "https://x.com/dd3vahmad",
   },
 ];

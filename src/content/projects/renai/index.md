@@ -13,7 +13,7 @@ tags:
   - Langchain
   - Vercel AI SDK
 demoUrl: https://renai-mocha.vercel.app
-repoUrl: https://github.com/0xlxst/chatrenai
+repoUrl: https://github.com/dd3vahmad/chatrenai
 banner: /renAI.png
 ---
 

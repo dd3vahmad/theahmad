@@ -2,7 +2,7 @@
 title: "Gigsflix"
 summary: "A social media engagement platform to gain likes, follows, and more."
 date: "June 3 2024"
-draft: false
+draft: true 
 tags:
   - ReactJs
   - JavaScript

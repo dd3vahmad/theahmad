@@ -2,7 +2,7 @@
 title: "ScSly"
 summary: "Making the right digital connections. Use our URL shortener, QR Codes, and landing pages to engage your audience and connect them to the right information."
 date: "March 30 2025"
-draft: false
+draft: true
 tags:
   - NextJs
   - Typescript
@@ -12,7 +12,7 @@ tags:
   - ExpressJs
   - MongoDB
 demoUrl: https://scsly.vercel.app
-repoUrl: https://github.com/0xlxst/scsly
+repoUrl: https://github.com/dd3vahmad/scsly
 banner: /scsly.png
 ---
 

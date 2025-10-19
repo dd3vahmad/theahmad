@@ -2,7 +2,7 @@
 title: "Hamdallah Rabiu"
 summary: "A well design simple but yet detailed portfolio website for one of my clients - Hamdallah A. Rabiu."
 date: "February 3 2025"
-draft: false
+draft: true
 tags:
   - NextJs
   - Typescript
@@ -10,7 +10,7 @@ tags:
   - shadcn UI
 banner: /hamdallah-portfolio.png
 demoUrl: https://hamdallah-rabiu.vercel.app
-repoUrl: https://www.github.com/0xlxst/hamdallah-rabiu
+repoUrl: https://www.github.com/dd3vahmad/hamdallah-rabiu
 ---
 
 ![Hamdallah's](/hamdallah-portfolio.png)

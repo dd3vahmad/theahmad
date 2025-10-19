@@ -12,7 +12,7 @@ tags:
   - PostgreSQL
   - SQL
 demoUrl: https://appacqua.vercel.app
-repoUrl: https://github.com/0xlxst/acqua
+repoUrl: https://github.com/dd3vahmad/acqua
 banner: /acqua_farms.png
 ---
 

@@ -11,7 +11,7 @@ tags:
   - Langchain
   - Hackathon
 demoUrl: https://bizzbot-eta.vercel.app
-repoUrl: https://github.com/0xlxst/bizzbot
+repoUrl: https://github.com/dd3vahmad/bizzbot
 banner: /bizzbot.png
 ---
 
@@ -57,5 +57,5 @@ BizzBot solves this problem by acting as a **free, always-available assistant** 
 
 ### Team
 
-- **Ahmad Rabiu** – Fullstack Developer ([GitHub](https://github.com/0xlxst) | [LinkedIn](https://linkedin.com/in/rabiuahmad))
+- **Ahmad Rabiu** – Fullstack Developer ([GitHub](https://github.com/dd3vahmad) | [LinkedIn](https://linkedin.com/in/rabiuahmad))
 - **Aderemi Adedeji** – Fullstack Developer ([GitHub](https://github.com/Oreolion) | [LinkedIn](#))

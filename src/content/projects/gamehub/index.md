@@ -9,7 +9,7 @@ tags:
   - ChakraUI
   - rawgAPI
 demoUrl: https://gamehub-ruddy-beta.vercel.app
-repoUrl: https://github.com/0xlxst/gamehub
+repoUrl: https://github.com/dd3vahmad/gamehub
 banner: /gameIT.png
 ---
 
